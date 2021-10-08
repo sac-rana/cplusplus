@@ -1,0 +1,17 @@
+Task 01:  + operator overloaded { (int + int), (float + float), (int + float), (string + string) }
+          When used with string and int, an error occured stating " no match for operator+ ".
+          Operator+ is not overloaded for int and string.
+
+Task 02:  Checked whether the given string is palindrome or not.          
+
+Task 03:  Find the reverse of a string.
+          1. Using Built-in function reverse().
+          2. Using reverse_iterator and then traversing through the string.
+
+Task 04:  Comparing two input string by traversing through the string.
+
+Task 05:  Comparing two strings using compare() method in string class.
+
+Task 06:  Check whether strings are mutable or immutable in c++.
+          Since strings in c++ are by default stored as a character array and hence data can be changed at a particular index.
+          This shows that strings are mutable in c++.
