@@ -1,0 +1,38 @@
+Task 01:  In this task, we are printing the current year, month and day
+using switch statements. Here the data is entered manually in the cpp program.
+
+Task 02:  This is the modification of Task 01. We have make use of ctime library
+functions to access current time. 'struct tm' is a Time structure containing
+a calendar date and time broken down into its components.
+
+Task 03:  convert [ 1 2 3          [ 9 8 7
+                    4 5 6    -->     6 5 4
+                    7 8 9 ]          3 2 1 ]
+                      
+Task 04:  convert [ 1 2 3          [ 1 1 1
+                    4 5 6    -->     2 2 2
+                    7 8 9 ]          3 3 3 ]
+
+Task 05:  Store these in an array[4][4] in given fashion and then print:
+  *
+  * *
+  * * *
+  * * * *
+
+Task 06:  Store these in an array[4][4] in given fashion and then print:
+  * * * *
+  * * *
+  * * 
+  *
+
+Task 07:  Store these in an array[4][4] in given fashion and then print:
+        *
+      * *
+	  * * *
+  * * * *
+
+Task 08: Store these in an array[4][4] in given fashion and then print:
+  * * * *
+  * * *
+  * * 
+  *

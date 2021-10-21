@@ -5,6 +5,8 @@ int main() {
        << "1. To print current year\n"
        << "2. To print current month\n"
        << "3. To print current day of month\n";
+  int n;
+  cin >> n;
   switch (n) {
     case 1:
       cout << "Current year: 2021" << '\n';

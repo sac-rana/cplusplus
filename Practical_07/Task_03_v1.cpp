@@ -10,7 +10,7 @@ int main() {
     cout << '\n';
   }
 
-  cout << "<------------------->";
+  cout << "<------------------->\n";
   // Modifiend array
   for (int i = 2; i >= 0; i--) {
     for (int j = 2; j >= 0; j--) {
