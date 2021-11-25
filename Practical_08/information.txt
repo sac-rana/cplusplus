@@ -1,0 +1,88 @@
+Pointer, Function, Inline Function, Recursion in C++: 
+
+8.1 Task: Will the program through an error and if yes then why?
+
+int *p = {10,20,20};
+
+cout << *p;
+
+p++;
+
+cout << *p;
+
+Error: Too many initializer values.
+
+8.2 Task: Output of this program?
+
+V1. Issue?
+
+int arr[] = {10,20,30};
+
+cout << *arr;
+
+cout << arr;
+
+arr++;
+
+cout << *arr;
+
+--- arr cannot be modifiend -------------
+
+V2.How to resolve above issue?
+
+int arr[] = {10,20,30};
+
+cout << *arr;
+
+cout << arr;
+
+cout << *(?);
+
+
+
+8.3 Task: Output of this program?
+
+V1. Output?
+
+int a = 10;
+
+int *p;
+
+int **q;
+
+p = &a;
+
+q = &p;
+
+cou << *p;
+
+cou << **q;
+
+V2. Change the value of a using q pointer to pointer.
+
+
+8.4 Task: Find factorial of a number using function but not recurssion
+
+8.5 Task: Find factorial of a number using recurssion
+
+8.6 Task: Series Problem using recurssion for n series
+
+2, (2^2 + 2), (3^3 + 3), (4^4 + 4), (5^5 + 5), .......
+
+Hint:
+
+n * ((n-1)^(n-1) + (n-1))
+
+
+
+8.7 Task: Perform Call by value, call by Address for swapping value of a and b:
+
+int a = 10;
+
+int b = 20;
+
+V1. Swap(a,b); //call by Value [void swap(int a, int b){}]
+
+V2. Swap(a,b); //call by Value [void swap(int &a, int &b){}]
+
+V3. Swap(&a,&b); //call by Address
