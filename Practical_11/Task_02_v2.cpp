@@ -20,7 +20,9 @@ class BlueWhale : public Mammals, public MarineAnimals {
 };
 
 int main() {
-  MarineAnimals ma;
-  ma.say2();
+  BlueWhale bw;
+  bw.say1();
+  bw.say2();
+  bw.say3();
   return 0;
 }
