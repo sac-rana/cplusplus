@@ -5,7 +5,7 @@ using namespace std;
 // function for printing the elements in a map
 void printmap(map<int, string> v) {
   for (auto it{v.begin()}; it != v.end(); ++it)
-    cout << it->first << " " << it->second << "\n";
+    cout << it->first << " " << it->second << ", ";
   cout << '\n';
 }
 int main() {
