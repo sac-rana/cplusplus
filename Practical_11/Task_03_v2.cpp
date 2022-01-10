@@ -19,7 +19,7 @@ class C : virtual public A {
 class D : public B, public C {
  public:
   void say() {
-    cout << "x is " << x;  // x is not ambiguous anymore
+    cout << "x is " << x << '\n';  // x is not ambiguous anymore
     cout << "y: " << y << ", z: " << z << '\n';
   }
 };
